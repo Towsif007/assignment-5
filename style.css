@@ -1,0 +1,38 @@
+/* Apple Computer style section  */
+.apple-computer{
+    display: flex;
+    margin-left: 60px;
+}
+.mac-pic img{
+    width: 100%;
+}
+
+/* button and price section style  */
+
+.cost-price{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#first-hr{
+    margin-right: 80em;
+}
+.price-and-cost{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* promo code button style  */
+.apply{
+    background-color: rgba(255, 0, 0, 0.836);
+    color: #ffffff;
+    padding: 10px;
+}
+.promo-code{
+    padding: 10px;
+}
+.total{
+    display: flex;
+    margin-left: 20px;
+    padding: 10px;
+}
