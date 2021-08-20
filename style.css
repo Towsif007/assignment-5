@@ -1,7 +1,7 @@
 /* Apple Computer style section  */
 .apple-computer{
     display: flex;
-    margin-left: 60px;
+    margin: 50px;
 }
 .mac-pic img{
     width: 100%;
@@ -17,7 +17,7 @@
     margin-right: 80em;
 }
 .price-and-cost{
-    padding: 5px;
+    padding: 10px;
     font-size: 20px;
     font-weight: 700;
 }

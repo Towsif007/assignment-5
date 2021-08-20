@@ -34,52 +34,58 @@
             <!-- memory -->
             <h3>Memory</h3>
             <div>
-                <button>8GB unified memory</button>
-                <button>16GB unified memory</button>
+                <button id="eight-gb-memory">8GB unified memory</button>
+                <button id="sixteen-gb-memory">16GB unified memory</button>
             </div>
             <!-- storage -->
             <h3>Storage</h3>
             <div>
-                <button>
+                <button id="two-fifty-six-storage">
                     256GB SSD storage
                 </button>
-                <button>
+                <button id="fifty-one-two-storage">
                     512GB SSD storage
                 </button>
-                <button>
+                <button id="one-tb-storage">
                     1TB SSD storage
                 </button>
             </div>
             <!-- delivery option  -->
             <h3>Choose your delivery option</h3>
             <div>
-                <button>Friday, Aug 25 FREE Prime Delivery</button>
-                <button>Friday, Aug 21 Delivery Charge $20</button>
+                <button id="free-prime-delivery">Friday, Aug 25 FREE Prime Delivery</button>
+                <button id="delivery-charge-twenty">Friday, Aug 21 Delivery Charge $20</button>
             </div>
         </section>
         <!-- price section  -->
         <section>
+            <!-- best price  -->
             <div class="cost-price">
                 <div class="price-and-cost">
                     <span>Best Price</span>
-                    <span>$1299</span>        
+                    <span>$ <span>1299</span></span>        
                 </div>
+                <!-- memory cost  -->
                 <div class="price-and-cost">
                     <span>Extra Memory Cost</span>
-                    <span>$0</span>        
+                    <span>$ <span id="memory-cost">0</span></span>        
                 </div>
+                <!-- storage cost  -->
                 <div class="price-and-cost">
                     <span>Extra Storage Cost</span>
-                    <span>$1299</span>        
+                    <span >$ <span id="storage-cost">0</span></span>        
                 </div>
+                <!-- delivery charge  -->
                 <div class="price-and-cost">
                     <span>Delivery Charge</span>
-                    <span>$0</span>        
+                    <span>$ <span id="delivery-charge">0</span></span>        
                 </div>
+                <!-- hr  -->
                 <hr id="first-hr">
+                <!-- total price  -->
                 <div class="price-and-cost">
                     <span>Total Price</span>
-                    <span>$1299</span>        
+                    <span>$ <span id="total-price">1299</span></span>        
                 </div>
             </div>
         </section>
@@ -96,10 +102,12 @@
                 <h1>Total:</h1>
               </div>
               <div>
-                <h1>$1299</h1>
+                <h1>$ <span>1299</span></h1>
               </div>
             </div>
         </section>
     </main>
+    <!-- javaScript file  -->
+    <script src="js/app.js"></script>
 </body>
 </html>
