@@ -3,12 +3,12 @@ document.getElementById('eight-gb-memory').addEventListener('click',function () 
     const extraGbMemory = document.getElementById('memory-cost');
     const memoryCostFree = parseInt(0) 
     extraGbMemory.innerText = memoryCostFree;
+ 
     
     // total 
     const total = document.getElementById('total-price');
     total.innerText = parseInt(1299) + memoryCostFree;  
-
-    // calculateTotalPrice()
+  
  
 });
 // Sixteen GB Memory 
@@ -16,10 +16,7 @@ document.getElementById('sixteen-gb-memory').addEventListener('click',function (
     
     const extraGbMemory = document.getElementById('memory-cost');
     const memoryCost  = parseInt(180);
-    extraGbMemory.innerText = memoryCost;
-
-
-    // calculateTotalPrice()
+    extraGbMemory.innerText = memoryCost;   
    
 // total
     const total = document.getElementById('total-price');
@@ -34,11 +31,6 @@ document.getElementById('two-fifty-six-storage').addEventListener('click', funct
     const firstStorageCost =  parseInt(0);
     extraSsdStorage.innerText = firstStorageCost;
 
-
-    // calculateTotalPrice()
-
-
-
 // total
     const total = document.getElementById('total-price');
     total.innerText = parseInt(1299) + firstStorageCost
@@ -49,9 +41,6 @@ document.getElementById('fifty-one-two-storage').addEventListener('click', funct
     const extraSsdStorage = document.getElementById('storage-cost');
     const secondStorageCost = parseInt(100);
     extraSsdStorage.innerText = secondStorageCost;
-    // calculateTotalPrice()
-
-
 
     // total 
     const total = document.getElementById('total-price');
@@ -63,8 +52,7 @@ document.getElementById('one-tb-storage').addEventListener('click', function(){
     const extraSsdStorage = document.getElementById('storage-cost');
     const thirdStorageCost = parseInt(180);
     extraSsdStorage.innerText = thirdStorageCost;
-    // calculateTotalPrice()
-
+    
 
  // total 
  const total = document.getElementById('total-price');
@@ -82,7 +70,7 @@ document.getElementById('free-prime-delivery').addEventListener('click', functio
  const total = document.getElementById('total-price');
  total.innerText = parseInt(1299)  + deliveryFreeCharge;
 
-    // calculateTotalPrice()
+    
 })
 
 // Delivery with charge 
@@ -94,24 +82,8 @@ document.getElementById('delivery-charge-twenty').addEventListener('click', func
     // total 
  const total = document.getElementById('total-price');
  total.innerText = parseInt(1299) + deliveryCharge;
-
-
-    // calculateTotalPrice()   
+      
 })
-
-// calculation Total 
-
-// const bestPrice = document.getElementById('best-price');
-// bestPrice.innerText = parseInt(1299);
-// const total = document.getElementById('total-price');
-// total.innerText = parseInt(1299) 
-
-
-
-
-
-
-
 
 
 
